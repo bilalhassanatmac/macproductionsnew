@@ -46,9 +46,15 @@ const FooterSection = () => {
       <hr />
       <div className="footer-end container section-padding-bottom" >
         <div className="footer-end-icons section-margin" >
+          <a href="https://www.facebook.com/mac.hrp/" target="_blank">
           <img src={facebookIcon} alt="facebook icon" />
-          <img src={instagramIcon} alt="instagram icon" />
-          <img src={twitterIcon} alt="twitter icon" />
+          </a>
+          <a href="">
+          <img src={instagramIcon} alt="facebook icon" />
+          </a>
+          <a href="">
+          <img src={twitterIcon} alt="facebook icon" />
+          </a>
         </div>
         <p>© Copyright 2023 MAC Production & Graphics All Rights Reserved</p>
       </div>

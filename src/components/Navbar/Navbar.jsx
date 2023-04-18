@@ -28,7 +28,7 @@ const Navbar = () => {
         </div>
        
         <div className="navbar-info-section">
-            <a className="button button-small button-blue" href="https://api.whatsapp.com/send?phone=+923338070666&text=Hi%20there%21" >
+            <a className="button button-small button-blue" href="https://api.whatsapp.com/send?phone=+923338070666&text=Mac%20Productions%20and%20Graphics%20" target="_blank" >
             <p className="text" >Let's Talk</p>              
             </a>  
         </div>

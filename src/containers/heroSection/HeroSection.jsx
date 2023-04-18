@@ -5,7 +5,7 @@ import adIcon from "../../images/heroIcons/advertisment.svg";
 import webIcon from "../../images/heroIcons/webdev.svg";
 import graphicIcon from "../../images/heroIcons/graphicsdesign.svg";
 import whatsappIcon from "../../images/heroSection/whatsapp.svg";
-const HeroSection = () => {
+const HeroSection = () => { 
   const services = [
     {
       name: "Advertising and Marketing",
@@ -27,7 +27,6 @@ const HeroSection = () => {
     <div id="home" className="hero-section" >
       <div className="pos-center">
       </div>
-      <Spinner/>
       <a href="https://api.whatsapp.com/send?phone=+923338070666&text=Hi%20there%21" className="float" target="_blank">
       <i className="fa fa-whatsapp my-float">
         <img className="float-icon" src={whatsappIcon} alt="" srcSet="" />
@@ -50,7 +49,7 @@ const HeroSection = () => {
             MAC Production & Graphics is a company that specializes in the creation of various forms of media content, including commercials, promotional videos, corporate videos, training videos, graphic designs, social media management, documenteries, short films and other multimedia projects. We are responsible for the entire process of media production & digital content creation, from ideation and conceptualization to filming, editing, post-production & graphic designing.
             </p> 
           </div>
-            <a href="https://www.google.com/maps/place/MAC+Production+%26+Graphics/@33.9939075,72.93723,15z/data=!4m2!3m1!1s0x0:0xd5783962cdeab88e?sa=X&ved=2ahUKEwi8nITgjpX-AhXN7rsIHZUWATAQ_BJ6BAhXEAM">
+            <a href="https://www.google.com/maps/place/MAC+Production+%26+Graphics/@33.9939075,72.93723,15z/data=!4m2!3m1!1s0x0:0xd5783962cdeab88e?sa=X&ved=2ahUKEwi8nITgjpX-AhXN7rsIHZUWATAQ_BJ6BAhXEAM" target="_blank" >
             <div className="button button-big button-blue">
               <p>Meet with Us</p>
             </div>

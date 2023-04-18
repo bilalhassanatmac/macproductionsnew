@@ -263,3 +263,30 @@ a {
     font-size: 29.5%;
   }
 }
+
+/* SPINNER */
+/* To center the spinner*/
+#loader {
+  border: 12px solid #007038;
+  border-radius: 50%;
+  border-top: 12px solid #b4b1b1;
+  width: 70px;
+  height: 70px;
+  animation: spin 1s linear infinite;
+  z-index: 100000;
+}
+
+@keyframes spin {
+  100% {
+      transform: rotate(360deg);
+  }
+}
+
+.center {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
