@@ -1,0 +1,44 @@
+.service-page {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+.left-nav-link {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    background-color: #007038;
+    height: 100%;
+    padding: 2.8rem 0;
+    gap: 20px;
+    font-size: var(--text);
+}
+.left-nav-link a {
+    color: #fff;
+    width: 100%;
+    padding: 1.2rem 2.8rem;
+    background-color: #007038;
+    transition: all 0.2s;
+}
+.left-nav-link a:hover {
+    color: #fff;
+    width: 100%;
+    padding: 1.2rem 2.8rem;
+    background-color: #02934b;
+}
+.service-page-info {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.service-images {
+    width: 25%;
+    flex: 1;
+}
+.service-images img {
+    flex: 1;
+}

@@ -31,7 +31,7 @@
     padding: 2.6rem;
     background-color: var(--blue-color-shade-v1);
     top: 0;
-    transform: translateY(-90px);
+    transform: translateY(-60px);
 }
 
 .hero-card img {

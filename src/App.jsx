@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { HeroSection, SupportSection, ServiceSection, ProjectsSection, FooterSection, PortfolioSection, PortfolioPage } from "./containers/index";
+import { HeroSection, SupportSection, ServiceSection, ProjectsSection, FooterSection, PortfolioSection, ServicePage } from "./containers/index";
 import { Navbar } from "./components/index";
 import { Fragment } from "react";
 
@@ -43,6 +43,13 @@ function App() {
         <Route path="/contact-us" element={
           <Fragment>
           <Navbar/>
+          <FooterSection/>
+        </Fragment>
+        }/>
+        <Route path="/service" element={
+          <Fragment>
+          <Navbar/>
+          <ServicePage/>
           <FooterSection/>
         </Fragment>
         }/>

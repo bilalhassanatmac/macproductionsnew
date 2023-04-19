@@ -36,6 +36,14 @@
         padding: 20px;
         opacity: 0;
         transition: all 0.5s ease-in-out  ;
+        
+        .content {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          gap: 10px;       
+        }
 
         &:hover {
           opacity: 1;
@@ -62,6 +70,7 @@
         border-radius: 15px;        
         outline: 5px solid #fff;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 25px;
@@ -80,13 +89,13 @@
     }
   }
 
-  .card:hover .face.face2 {
-    height: 60px;
+  // .card:hover .face.face2 {
+  //   height: 60px;
 
-    h2 {
-      font-size: 2em;
-    }
-  }
+  //   h2 {
+  //     font-size: 2em;
+  //   }
+  // }
 
   .card:nth-child(1) .face.face2 {
     background-image: linear-gradient(

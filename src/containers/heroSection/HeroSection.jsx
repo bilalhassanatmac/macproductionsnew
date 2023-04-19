@@ -8,18 +8,18 @@ import whatsappIcon from "../../images/heroSection/whatsapp.svg";
 const HeroSection = () => { 
   const services = [
     {
-      name: "Advertising and Marketing",
-      info: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic, nihil",
+      name: "Graphic Designing Video Editing",
+      info: "Graphic design is a craft where professionals create visual content to communicate messages",
       image: adIcon
     },
     {
-      name: "Website Development",
-      info: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic, nihil",
+      name: "Advertising and Marketing",
+      info: "process of exploring, creating, and delivering value to meet the needs of a target market in terms of goods and services",
       image: webIcon
     },
     {
-      name: "Graphic Designing",
-      info: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic, nihil",
+      name: "Website Development",
+      info: "single static page of plain text to complex web applications, electronic businesses, and social network services",
       image: graphicIcon
     },
   ];

@@ -23,7 +23,7 @@
 .hero-flex {
     color: var(--text-color);
     background-color: var(--primary-color);
-    height: 100vh;
+    height: 75vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -38,13 +38,16 @@
     gap: 12px;
     width: 50vw;
     z-index: 100;
-    transform: translateY(-200px);
+    transform: translateY(-150px);
+    
 }
 .hero-section-left h1 {
     text-transform: uppercase;
     font-family: 'DM Sans', sans-serif; 
     font-weight: bold;
     font-size: 112px;
+    line-height: 120px;
+
 }
 .description {
     margin-bottom: 25px;
@@ -73,14 +76,12 @@
     height: 500px;
     transition: all 0.3s;
     transform: scale(110%);
-    transform:
-    perspective(1000px)
-    rotateX(4deg)
-    rotateY(-16deg)
-    rotateZ(4deg);
     transform: translateY(-140px);
 }
 
+.hero-section-right {
+    transform: translateX(80px);
+}
 
 
 

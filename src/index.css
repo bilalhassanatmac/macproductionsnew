@@ -187,22 +187,22 @@ a {
   background-color: transparent;
 }
 .button-white {
-  background-color: var(--color-white);
-  color: var(--color-dark-1);
+  background-color: #fff;
+  color: var(--blue-color-shade-v1);
   border: 2px solid var(--color-white);
   transition: all 0.2s ease-in-out;
 }
-.button-white:hover {
+/* .button-white:hover {
   background-color: transparent;
   color: var(--color-white);
-}
+} */
 .button-green {
   background-color: var(--blue-color-shade-v1);
   border: 2px solid var(--color-green-1);
   transition: all 0.2s ease-in-out;
 }
 .button-green:hover {
-  background-color: var(--color-green-1);
+  background-color: #04522bea;
 }
 .section-padding {
   padding: 20rem 0;
